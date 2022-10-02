@@ -72,3 +72,16 @@ body{
 .navbar-toggler i{
     color: var(--textBg);
 }
+/*====*/
+.page-item.active .page-link {
+    /* z-index: 1;*/
+    z-index: 1;
+    color: var(--textBg);
+    background: var(--primaryColor);
+    border-color: 1px solid var(--primaryColor);
+}
+.page-link{
+    color: var(--primaryColor);
+    background-color: var(--textBg);
+    border-color: 1px solid var(--primaryColor);
+}
